@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We check to see if number is greater than or equal to 2
+// We console.log yes.
 // 
 //
 
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable named Dane
+// We check to see if the name variable is exactly equal too Mary
+// otherwise we console log "how do you do?"
 //
 
 //CODE
@@ -70,10 +70,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We define an empty variable of secret
+// We define a variable called code and assign it to 123
+// We check to see if code is equal to 123
+// if the condition is true in that code variable is equal to 123
+// we set secrete to the string super
+// we change code from 123 to its own value times 2
+// if code is greater than 250 we set secret to the string duper
+// finally we console.log the secret variable.
 
 //CODE
 /*
@@ -92,6 +96,8 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
+
+
 
 
 
@@ -129,13 +135,15 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = 'purple'; ******************** color two is not being defined as purple
 }
 */
 
@@ -147,7 +155,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) { .  ITS AND NOT OR FOR FUTURE REFERENCE********************
   console.log('throw away the food!');
 }
 */
@@ -165,5 +173,6 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
 */
 
