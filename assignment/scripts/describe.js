@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We check to see if number is greater than or equal to 2
-// We console.log yes.
-// 
+// We create a variable named Dane
+// We check to see if the name variable is exactly equal too Mary
+// otherwise we console log "how do you do?"
 //
 
 //CODE
@@ -40,15 +40,18 @@ if (name === 'Mary') {
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
+
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a variable named Dane
-// We check to see if the name variable is exactly equal too Mary
-// otherwise we console log "how do you do?"
-//
+// We define an empty variable of secret
+// We define a variable called code and assign it to 123
+// We check to see if code is equal to 123
+// if the condition is true in that code variable is equal to 123
+// we set secrete to the string super
+// we change code from 123 to its own value times 2
+// if code is greater than 250 we set secret to the string duper
+// finally we console.log the secret variable.
 
 //CODE
 /*
@@ -70,14 +73,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We define an empty variable of secret
-// We define a variable called code and assign it to 123
-// We check to see if code is equal to 123
-// if the condition is true in that code variable is equal to 123
-// we set secrete to the string super
-// we change code from 123 to its own value times 2
-// if code is greater than 250 we set secret to the string duper
-// finally we console.log the secret variable.
+// We define a variable for isStudent and set its value to true
+// We define another variable of age and set its value to a integer of 34
+// We define yes another variable of zip and set its value to 55407;
+// We define a condition to check if isStudent is equal to true and that zip is greater than 80000.
+// If the condition is true we console log out ("You're a student on the west coast");
+// If the condtion fails we continue on to the next else if - checking if isStudent variable is equal to false OR age is less than 30
+// If that condition is true we console out "What are you hobbies?";
+// If that condition fails we continue on to another else if - checking if isStudent is equal to true
+// If that condition is true we console log out "Welcome to Prime!";
+// If that condition fails along with the prior conditions we go to the final else and console loog out "How about the weather?"
+
 
 //CODE
 /*
