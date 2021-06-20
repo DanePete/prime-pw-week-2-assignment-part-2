@@ -141,6 +141,8 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// Answer = color two is not being defined as purple in the condition.
+
 
 
 /*
@@ -157,6 +159,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// Answer = The conditon is checking for OR instead of AND
+
 /*
 let temp = 40;
 const time = 4;
@@ -169,6 +173,8 @@ if (temp > 39 || time >= 4) { .  ITS AND NOT OR FOR FUTURE REFERENCE************
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+// Answer = While the conditon is written oddly, but switching the symbol in the condition or flipping the console logs would result in the correct value.
 
 /*
 let age = 21;
